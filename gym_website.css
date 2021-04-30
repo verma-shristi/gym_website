@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("../images/1gym.jpg");
+    /* background-size: cover; */
+}
+.maincontainer{
+    display: flex;
+   
+}
+.container0{
+    width:25%;
+    margin-top: 2.5% !important;
+    margin-left: 2%;
+}
+.container0 h6{
+color: white;
+
+}
+.container1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   width: 50%;
+   margin-top: 3.5% !important;
+    
+}
+.container1:hover{
+    border: 2px solid green;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+}
+.navi a{
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+.navi a:hover{
+    color: rgb(141, 196, 141);
+}
+.container2{
+    text-align: right;
+    align-items: right;
+    margin-top: 3% !important;
+    margin-right: 2%;
+    width: 25%;
+}
+.btn{
+    text-decoration: none;
+    color: honeydew;
+    border:  1px solid white;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 5px;
+}
+h3{
+    color: white;
+    margin-bottom: 5%;
+}
+form{
+    display: inline-block;
+    border:  2px solid white;
+    padding :2.5% 4.5%;
+    margin: 5%;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    border:1px solid black;
+    border-radius: 5px;
+    margin:1%;
+    padding: 1%;
+}
+.btnn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+::placeholder{
+    text-align: center;
+    color:darkred;
+}
+ @media(max-width:772px)and (min-width:711px){
+    .navi a{
+        font-size: 16px;
+        
+    }
+ }
+ @media(max-width:711px) and (min-width:600px) {
+    .btn{
+        font-size: 12px;
+        
+    }
+    .navi a{
+        font-size: 12px;
+        
+    }
+ }
+ @media(max-width:600px) and (min-width:500px) {
+    .btn{
+        font-size: 10px;
+        
+    }
+    .navi a{
+        font-size: 10px;
+        
+    }
+ }
+ @media(max-width:500px) and (min-width:400px) {
+    .btn{
+        font-size: 8px;
+        
+    }
+    .navi a{
+        font-size: 8px;
+        
+    }
+    .container0 i{
+        font-size: 24px;
+    }
+    .container0 h6{
+        font-size: 10px;
+    }
+ }
+ @media(max-width:500px) and (min-width:400px) {
+    .btn{
+        font-size: 7px;
+        
+    }
+    .navi a{
+        font-size: 7px;
+        
+    }
+    .container0 i{
+        font-size: 24px;
+    }
+ }
+ @media(max-width:400px) and (min-width:300px) {
+    .btn{
+        font-size: 5px;
+        
+    }
+    .navi a{
+        font-size: 5px;
+        
+    }
+    .container0 i{
+        font-size: 20px;
+    }
+    .container0 i{
+        font-size: 12px;
+    }
+ }
+ @media(max-width:300px) and (min-width:200px) {
+    .btn{
+        font-size: 4px;
+        
+    }
+    .navi a{
+        font-size: 4px;
+        
+    }
+    .container0 i{
+        font-size: 20px;
+    }
+    .container0 i{
+        font-size: 12px;
+    }
+ }
